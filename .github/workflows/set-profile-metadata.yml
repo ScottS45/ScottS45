@@ -1,0 +1,50 @@
+name: Set profile repo metadata
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/set-profile-metadata.yml
+
+permissions:
+  contents: write
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update About and topics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          gh api --method PATCH "repos/$GITHUB_REPOSITORY"             -f description='Scott Sheen / Sheen Consulting International Inc. — Clarion development, application takeovers, modernization, databases, APIs and systems integration.'
+
+          printf '%s
+' '{
+            "names": [
+              "clarion",
+              "softvelocity",
+              "capesoft",
+              "clarion-development",
+              "clarion-templates",
+              "software-consulting",
+              "application-modernization",
+              "legacy-systems",
+              "systems-integration",
+              "database-migration",
+              "sql-server",
+              "oracle",
+              "postgresql",
+              "mysql",
+              "csharp",
+              "python",
+              "php",
+              "rest-api"
+            ]
+          }' > topics.json
+
+          gh api --method PUT "repos/$GITHUB_REPOSITORY/topics" --input topics.json
