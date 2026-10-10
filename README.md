@@ -1,8 +1,9 @@
 <h1 align="center">Scott Sheen</h1>
 
 <p align="center">
-  <strong>Senior Software Developer & Consultant</strong><br>
-  Clarion • Application Takeovers • Modernization • SQL • Systems Integration
+  <strong>Sheen Consulting International Inc.</strong><br>
+  Senior Software Developer & Consultant<br>
+  Clarion • SoftVelocity • CapeSoft • Application Takeovers • Modernization • Databases • Systems Integration
 </p>
 
 <p align="center">
