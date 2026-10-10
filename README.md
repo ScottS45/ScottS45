@@ -39,15 +39,40 @@ That work often includes:
 
 ## Technologies
 
-<p>
-  <img src="https://img.shields.io/badge/Clarion-30%2B%20Years-00599C?style=flat-square">
-  <img src="https://img.shields.io/badge/SQL%20Server-Database-CC2927?style=flat-square">
-  <img src="https://img.shields.io/badge/Python-Development-3776AB?style=flat-square">
-  <img src="https://img.shields.io/badge/C%23-Development-512BD4?style=flat-square">
-  <img src="https://img.shields.io/badge/PHP-Web-777BB4?style=flat-square">
-  <img src="https://img.shields.io/badge/REST-APIs-009688?style=flat-square">
-  <img src="https://img.shields.io/badge/Linux-Systems-FCC624?style=flat-square">
-</p>
+**Clarion / SoftVelocity**
+- SoftVelocity Clarion
+- ABC and legacy/template-based Clarion applications
+- Template development
+- CapeSoft tools and templates
+- Custom GitHub integrations for Clarion development
+- Clarion dictionaries and data integration
+- TopSpeed / TPS data
+
+**Databases & Data**
+- Microsoft SQL Server
+- Oracle
+- Pervasive PSQL / Actian Zen
+- MySQL
+- PostgreSQL
+- ODBC and SQL-based data integration
+- TopSpeed / TPS
+
+**Languages & Integration**
+- Clarion
+- C# / .NET
+- Python
+- PHP
+- SQL
+- REST APIs
+- JSON / XML
+- Windows and Linux systems integration
+
+**Application Modernization**
+- Legacy application takeovers
+- Clarion modernization and migration
+- Database migrations and restructuring
+- API and third-party system integration
+- Legacy-to-modern system integration
 
 ---
 
